@@ -1,0 +1,95 @@
+/* Selectores
+
+Se usa para aplicar una propiedad a todos los elementos de la pagina web
+se usa con 
+            *{}
+            el contenido se cierra con ;
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /* Fuentes en toda la pagina*/
+    /* font-family (Tipo de letra)*/
+}
+
+/*Selector de etiqueta*/
+
+h1{
+    background: red;
+    color: white;
+    padding: 20px;
+}
+
+h2{
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* OPCION 1, directamente a todos los "a"
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: lightsalmon;
+}
+*/
+
+/*Opcion 2, solo a los "a" dentro de el footer*/
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: lightsalmon !important; /*Da una mayor importacia*/
+}
+
+/* INDICANDO ID'S*/
+#descripcion{
+    padding: 15px;
+    margin: 5px;
+    margin-bottom: 50px;
+    border: black solid 5px;
+    border-radius: 20px;
+    background: lightblue;
+}
+
+/* INDICANDO CLASES*/
+
+.parrafoUno{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tituloDos{
+    font-size: 18px;
+}
+
+.parrafoDos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.tituloTres{
+    font-size: 18px;
+}
+
+.parrafoTres{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.parrafoCuatro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#usuario{
+    background: chocolate;
+}
