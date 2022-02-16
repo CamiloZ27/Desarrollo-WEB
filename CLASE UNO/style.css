@@ -1,0 +1,17 @@
+.formulario{
+    position: relative;
+    margin-right: 280px;
+    margin-left: 100px;
+    background: lightblue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.texto_Uno{
+    background: rgb(44, 44, 255);
+    color: white;
+    padding: 10px;
+    padding-left: 50px;
+    margin-right: 280px;
+    border-radius: 15px;
+}

@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:500' rel='stylesheet' type='text/css'>
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi Pagina Web</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
-   
-<div class="login">
-    <div class="login-header">
-      <h1>Login</h1>
+	<h1>Desarrollo Web con nuevas tecnologias</h1>
+	<br>
+	<hr>
+	<!-- Formulario simple que enviará una petición GET -->
+	<form class="formulario">
+    <h2 class="texto_Uno"><u>Formulario</u></h2>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Usuario</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputusser" placeholder="Usuario">
+      </div>
     </div>
-    <div class="login-form">
-      <h3>Username:</h3>
-      <input type="text" placeholder="Username"/><br>
-      <h3>Password:</h3>
-      <input type="password" placeholder="Password"/>
-      <br>
-      <input type="button" value="Login" class="login-button"/>
-      <br>
-      <a class="sign-up">Sign Up!</a>
-      <br>
-      <h6 class="no-access">Can't access your account?</h6>
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Correo Electronico</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Correo Electronico">
+      </div>
     </div>
-  </div>
-  <div class="error-page">
-    <div class="try-again">Error: Try again?</div>
-  </div> 
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Contraseña</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Contraseña">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Fecha de nac.</label>
+      <div class="col-sm-10">
+        <input type="date" class="form-control" id="inputPassword3" placeholder="Fecha de nacimiento">
+      </div>
+    </div>
+    <div class="form-group row" align="right">
+      <div class="col-sm-10">
+        <button type="submit" class="btn btn-primary">Registrarse</button>
+      </div>
+    </div>
+  </form>
 </body>
 </html>
